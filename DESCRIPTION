@@ -1,0 +1,15 @@
+Package: sqr4
+Type: Package
+Title: Squares a Number
+Version: 0.1.0
+Author: Mariah Taylor
+Maintainer: Mariah <mtayl121@vols.utk.edu>
+Description: It does nothing more than the Title descriptor. It is not a fancy package.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1

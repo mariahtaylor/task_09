@@ -1,0 +1,23 @@
+---
+title: "Square"
+author: "Mariah Taylor"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Square}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This package is useful due to the function it holds. The function will square any number that the user decides to add to it.
+
+```{r, fig.show='hold'}
+#load package
+library(sqr4)
+
+#Test package
+square(6)
+square(98)
+
+```
+
